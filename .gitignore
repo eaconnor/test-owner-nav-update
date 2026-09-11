@@ -1,1 +1,14 @@
-.claude/
+.DS_Store
+
+# NOTE: `.claude/` was ignored here until 2026-09-11, and that was the single
+# biggest reason the three-gate enforcement did not work.
+#
+# The speckit-* skills are the layer that reads .specify/extensions.yml and runs
+# the gate check. Ignoring .claude/ meant those skills were absent from the pushed
+# repo entirely — a fresh clone got the gates, the constitution and check-gates.sh,
+# but nothing that would ever invoke them. Enforcement has to travel with the repo
+# or it is not enforcement, only a local habit.
+#
+# Tracking .claude/ is also what makes the skills discoverable to a Claude Code
+# session, which is what allowed /speckit-plan and /check-gates to be invoked and
+# tested for real.
