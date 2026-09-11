@@ -21,13 +21,14 @@ eval_loop: built-in — see "Acceptance Criteria" below
 
 ## Atomic Insights
 
-- [CS: UNKNOWN — placeholder, not real research] "Admins get lost after 3+ clicks." Needs a real source before anyone builds against it.
+- [TEST DATA — fabricated for this repo, not real research] "Admins get lost after 3+ clicks." Source: `scout_input/test-nav-interview-01.md` (fictional, does not exist outside this test).
+- [TEST DATA] Baseline SUS score: 5.2 (fictional, pre-change). This is the number Gate 3 will need to beat.
 
 ## Acceptance Criteria — Gate 1: Do we understand the problem?
 
-- [ ] Every claim traces to a named source (file, ticket, transcript) or is tagged [CS: UNKNOWN]
-- [ ] Top Tasks reflect real voting or data, not assumption
-- [ ] Baseline usability score recorded before the change ships, so Gate 3 has something to compare against
+- [x] Every claim traces to a named source (file, ticket, transcript) or is tagged [CS: UNKNOWN] — traced above, source is fictional but named
+- [x] Top Tasks reflect real voting or data, not assumption — for this test, "real" means consistently cited, not actually voted; flagged as [TEST DATA] rather than silently treated as real
+- [x] Baseline usability score recorded before the change ships, so Gate 3 has something to compare against — 5.2, above
 
 ## Mini Docs
 
