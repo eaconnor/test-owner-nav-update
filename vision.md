@@ -17,9 +17,9 @@ Not a place to relitigate the whole information architecture every time a team s
 
 ## Acceptance Criteria — Gate 2: Are we making the right thing?
 
-- [x] Change traces to a named user goal — ux.md Top Task #1, "find a specific device or tenant fast"
-- [x] Change doesn't contradict a logged decision below without a new, logged override — no prior decisions exist yet, nothing to contradict
-- [x] Change advances at least one Top Task from the relevant ux.md — same Top Task #1
+- [x] G2-01 — Change traces to a named user goal — ux.md Top Task #1, "find a specific device or tenant fast" · verified_by: settled by reading, not by a command — see EG-4
+- [x] G2-02 — Change doesn't contradict a logged decision below without a new, logged override — no prior decisions exist yet, nothing to contradict · verified_by: settled by reading, not by a command — see EG-4
+- [x] G2-03 — Change advances at least one Top Task from the relevant ux.md — same Top Task #1 · verified_by: settled by reading, not by a command — see EG-4
 
 ## Decision Log
 

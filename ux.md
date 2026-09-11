@@ -26,9 +26,9 @@ eval_loop: built-in — see "Acceptance Criteria" below
 
 ## Acceptance Criteria — Gate 1: Do we understand the problem?
 
-- [x] Every claim traces to a named source (file, ticket, transcript) or is tagged [CS: UNKNOWN] — traced above, source is fictional but named
-- [x] Top Tasks reflect real voting or data, not assumption — for this test, "real" means consistently cited, not actually voted; flagged as [TEST DATA] rather than silently treated as real
-- [x] Baseline usability score recorded before the change ships, so Gate 3 has something to compare against — 5.2, above
+- [x] G1-01 — Every claim traces to a named source (file, ticket, transcript) or is tagged [CS: UNKNOWN] — traced above, source is fictional but named · verified_by: settled by reading, not by a command — see EG-4
+- [x] G1-02 — Top Tasks reflect real voting or data, not assumption — for this test, "real" means consistently cited, not actually voted; flagged as [TEST DATA] rather than silently treated as real · verified_by: settled by reading, not by a command — see EG-4
+- [x] G1-03 — Baseline usability score recorded before the change ships, so Gate 3 has something to compare against — 5.2, above · verified_by: settled by reading, not by a command — see EG-4
 
 ## Mini Docs
 
